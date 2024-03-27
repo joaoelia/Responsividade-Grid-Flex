@@ -1,107 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Exercício | Flex + Grid</title>
-  </head>
-  <body>
-    <header>
-      <img src="./assets/logo-onebitcode.svg" width="300px" />
-      <ul>
-        <li>Login</li>
-        <li>Registro</li>
-        <li>FAQ</li>
-      </ul>
-    </header>
-    <main>
-      <div class="Cabecalho">
-        <h1>Bem Vindo a OneBitSports!</h1>
-        <p>
-          Aqui é onde você encontra todos os itens mais novos e modernos do seu
-          esporte preferido.
-        </p>
-      </div>
-      <div class="container">
-        <div class="card card1">
-          <img src="./assets/boxe.jpg" />
-          <h2>Boxe</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            deserunt adipisci eveniet itaque obcaecati sint!
-          </p>
-        </div>
-        <div class="card card2">
-          <img src="./assets/crossfit.jpg" />
-          <h2>Crossfit</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            deserunt adipisci eveniet itaque obcaecati sint!
-          </p>
-        </div>
-        <div class="card card3">
-          <img src="./assets/natacao.jpg" />
-          <h2>Natação</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            deserunt adipisci eveniet itaque obcaecati sint!
-          </p>
-        </div>
-        <div class="card card4">
-          <img src="./assets/roupas.jpg" />
-          <h2>Roupas</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            deserunt adipisci eveniet itaque obcaecati sint!
-          </p>
-        </div>
-        <div class="card card5">
-          <img src="./assets/basquete.jpg" />
-          <h2>Basquete</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            deserunt adipisci eveniet itaque obcaecati sint!
-          </p>
-        </div>
-        <div class="card card6">
-          <img src="./assets/corrida.jpg" />
-          <h2>Corrida</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            deserunt adipisci eveniet itaque obcaecati sint!
-          </p>
-        </div>
-        <div class="card card7">
-          <img src="./assets/surf.jpg" />
-          <h2>Surf</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            deserunt adipisci eveniet itaque obcaecati sint!
-          </p>
-        </div>
-        <div class="card card8">
-          <img src="./assets/trilha.jpg" />
-          <h2>Trilha</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            deserunt adipisci eveniet itaque obcaecati sint!
-          </p>
-        </div>
-        <div class="card card9">
-          <img src="./assets/tenis.jpg" />
-          <h2>Tênis</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
-            deserunt adipisci eveniet itaque obcaecati sint!
-          </p>
-        </div>
-    </div>
 
-    </main>
-    <footer>
-      <img src="./assets/logo-onebitcode.svg" width="300px" />
-        <a href="index.html">Voltar ao Topo</a>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Projeto flexbox & grid</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="./imagens/logoOnebitcode.svg" alt="logo-header" class="logoNavBar">
+      <div class="headerBtnGroup">
+        <button class="navBtn">Login</button>
+        <button class="navBtn">Registro</button>
+        <button class="navBtn">FAQ</button>
+      </div>
+    </header>
+    <p class="sectionTitle" id="backToTop">BEM VINDO A ONEBITSPORTS!</p>
+    <p class="sectionDescription">Aqui é onde você encontra todos os itens mais novos e modernos do seu esporte
+      preferido.</p>
+    <section class="gridContainer">
+      <div class="mainContent">
+        <div class="categoryCard">
+          <img src="./imagens/boxe.jpg" alt="mainCardImg" class="mainCardImg">
+          <p class="mainCategoryCardTitle">BOXE</p>
+          <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+            reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
+        </div>
+        <div class="categoryCard">
+          <img src="./imagens/crossfit.jpg" alt="mainCardImg" class="mainCardImg">
+          <p class="mainCategoryCardTitle">CROSSFIT</p>
+          <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+            reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
+        </div>
+        <div class="categoryCard">
+          <img src="./imagens/natacao.jpg" alt="mainCardImg" class="mainCardImg">
+          <p class="mainCategoryCardTitle">NATAÇÃO</p>
+          <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+            reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
+        </div>
+        <div class="categoryCard">
+          <img src="./imagens/roupas.jpg" alt="mainCardImg" class="mainCardImg">
+          <p class="mainCategoryCardTitle">ROUPAS</p>
+          <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+            reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
+        </div>
+        <div class="categoryCard">
+          <img src="./imagens/basquete.jpg" alt="mainCardImg" class="mainCardImg">
+          <p class="mainCategoryCardTitle">BASQUETE</p>
+          <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+            reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
+        </div>
+        <div class="categoryCard">
+          <img src="./imagens/corrida.jpg" alt="mainCardImg" class="mainCardImg">
+          <p class="mainCategoryCardTitle">CORRIDA</p>
+          <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+            reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
+        </div>
+        <div class="categoryCard">
+          <img src="./imagens/surf.jpg" alt="mainCardImg" class="mainCardImg">
+          <p class="mainCategoryCardTitle">SURF</p>
+          <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+            reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
+        </div>
+        <div class="categoryCard">
+          <img src="./imagens/trilha.jpg" alt="mainCardImg" class="mainCardImg">
+          <p class="mainCategoryCardTitle">TRILHA</p>
+          <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+            reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
+        </div>
+        <div class="categoryCard">
+          <img src="./imagens/tenis.jpg" alt="mainCardImg" class="mainCardImg">
+          <p class="mainCategoryCardTitle">TÊNIS</p>
+          <p class="mainCategoryCardDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
+            reprehenderit hic blanditiis quam voluptates dolorum, adipisci dignissimos id ea temporibus.</p>
+        </div>
+      </div>
+      <div class="sidebarContent">
+        <p>CATEGORIAS EXTRAS</p>
+        <div class="sidebarCard">
+          <img src="./imagens/bicicletas.jpg" alt="sidebarCardImg" class="sidebarCardImg">
+          <p class="sidebarCardTitle">BICICLETAS</p>
+        </div>
+        <div class="sidebarCard">
+          <img src="./imagens/esportesNaNeve.jpg" alt="sidebarCardImg" class="sidebarCardImg">
+          <p class="sidebarCardTitle">ESPORTES DE FRIO</p>
+        </div>
+        <div class="sidebarCard">
+          <img src="./imagens/futebolAmericano.jpg" alt="sidebarCardImg" class="sidebarCardImg">
+          <p class="sidebarCardTitle">FUTEBOL AMERICANO</p>
+        </div>
+        <div class="sidebarCard">
+          <img src="./imagens/skate.jpg" alt="sidebarCardImg" class="sidebarCardImg">
+          <p class="sidebarCardTitle">SKATE</p>
+        </div>
+        <div class="sidebarCard">
+          <img src="./imagens/yoga.jpg" alt="sidebarCardImg" class="sidebarCardImg">
+          <p class="sidebarCardTitle">YOGA</p>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <img src="./imagens/logoOnebitcode.svg" alt="logo-footer" class="logoFooter">
+      <a href="#backToTop" class="footerAnchor">VOLTAR PARA O TOPO</a>
     </footer>
-  </body>
+  </div>
+</body>
+
 </html>
